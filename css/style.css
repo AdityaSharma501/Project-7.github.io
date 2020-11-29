@@ -1,0 +1,162 @@
+
+.br1{
+    color: black!important;
+    opacity:0.9;
+}
+a:hover{
+    color:black;
+    opacity:0.8;
+    font-weight: bold;
+}
+li{
+    margin: 15px;
+}
+.brand{
+    font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   color: rgba(0,0,0,.5);
+   opacity:0.9;
+}
+
+section{
+   background-color:#eff3f9;
+   color:black;
+   
+   border-bottom-left-radius: 77% 38%;
+   border-bottom-right-radius: 77% 38%;
+   
+}
+.icon{
+background: red;
+border-radius: 50%;
+height:90px;
+width:70px;
+
+}
+
+.icon2{
+  
+  border-radius: 90%;
+  height:90px;
+  width:90px;
+  
+  }
+.icoimg{
+  text-align: center;
+  align-items: center;
+}    
+.teext1{
+    text-align: center;
+font-weight: 600;
+  }  
+  .teext{
+    text-align: center;
+    font-weight: 100;
+  }
+   .avat{
+     height:200px;
+     width:15rem;
+     margin-bottom: 1.5rem;
+   border-style: none;
+    } 
+    
+      p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .hov {
+      position: relative;
+      width: 100%;
+    }
+    
+    .image {
+     width: 100%;
+     box-sizing: border-box;
+     border-radius:2%;
+     flex-shrink: 0;
+    }
+    
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: transparent;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: .5s ease;
+    }
+    
+    .hov:hover .overlay {
+      height: 100%;
+    }
+    
+    .text {
+      font-weight: bolder;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+/* [1] The container */
+.img-hover-zoom {
+ /* [1.1] Set it as per your need */
+  overflow: hidden;
+ 
+   /* [1.2] Hide the overflowing of child elements */
+  
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+  
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  opacity: 0.2;
+  transform: scale(1.2);
+}
+    
+
+
+.cont
+{
+background: #eff3f9; 
+border-bottom-left-radius: 77% 38%;
+border-bottom-right-radius: 77% 38%;
+
+
+}
+.cont2{
+  background: #1f2d41; 
+border-bottom-left-radius: 77% 38%;
+border-bottom-right-radius: 77% 38%;
+
+}
+.coli{
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*  box-shadow: 10px 10px 10px 5px grey!important;*/
+}
